@@ -1,0 +1,37 @@
+{
+  "api_endpoints": {
+    "gateway_base": "https://phonos-server-flex.adobe.io",
+    "api_key": "phonos-server-prod",
+    "tracks_path": "/api/v1/enhance_speech_tracks",
+    "user_path": "/api/v1/user",
+    "user_metrics_path": "/api/v1/user_metrics",
+    "direct_upload_keyword": "direct_uploads"
+  },
+  "selectors": {
+    "enhance_url": "https://podcast.adobe.com/enhance",
+    "file_input": "#enhance-file-upload, input[type=\"file\"][id*=\"enhance\"], input[type=\"file\"]",
+    "choose_files_btn": "[data-testid=\"choose-files-button\"], sp-button:has-text(\"Choose files\"), sp-button:has-text(\"Escolher arquivos\"), button:has-text(\"Choose files\"), button:has-text(\"Escolher arquivos\")",
+    "download_btn": "[data-testid=\"download-button\"], sp-button:has-text(\"Download\"), sp-button:has-text(\"Baixar\"), button:has-text(\"Download\"), button:has-text(\"Baixar\")",
+    "delete_track_btn": "[data-testid=\"delete-track-button\"], sp-action-button[label=\"Delete\"], sp-action-button[label=\"Excluir\"]",
+    "processing_indicator": "[data-testid=\"enhance-speech-track-processing-animated-text\"]",
+    "upsell_close_btn": "[data-testid=\"upsell-dialog-close-button\"], [aria-label=\"Fechar modal\"], [aria-label=\"Close modal\"], sp-close-button",
+    "sign_in_btn": "sp-button:has-text(\"Sign in\"), sp-button:has-text(\"Fazer logon\"), sp-button:has-text(\"Entrar\"), button:has-text(\"Sign in\"), button:has-text(\"Fazer logon\")",
+    "logged_out_landing": "[data-testid=\"logged-out-landing\"]",
+    "profile_dropdown_btn": "[data-testid=\"user-profile-dropdown-button\"]",
+    "track_list_container": "[data-testid=\"track-list-container\"]",
+    "action_bar": "[data-testid=\"action-bar\"]",
+    "enhance_switch": "[data-testid=\"enhance-preview-toggle\"], sp-switch",
+    "strength_slider": "[data-testid=\"speech-strength-container\"], sp-slider, input[type=\"range\"]",
+    "model_version_picker": "sp-picker, [data-testid*=\"model-version\"]"
+  },
+  "model_versions": {
+    "v2": "v2",
+    "2": "v2",
+    "soundlift": "v2",
+    "padrao": "v2",
+    "default": "v2",
+    "v1": "v1",
+    "1": "v1",
+    "classic": "v1"
+  }
+}

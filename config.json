@@ -1,0 +1,13 @@
+{
+  "processos_simultaneos": 1,
+  "espera_minima": 2,
+  "espera_maxima": 5,
+  "modo_invisivel": true,
+  "versao_modelo": "v2",
+  "forca_padrao": 90,
+  "ruido_fundo": 10,
+  "musica_fundo": 10,
+  "componente_faixa": "full",
+  "limpar_apos_download": true,
+  "timeout_processamento_seg": 900
+}
