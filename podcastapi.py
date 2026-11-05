@@ -1723,8 +1723,8 @@ async def baixar_audio_aprimorado(page, track_id: str, caminho_final: str, job: 
                     const expId = exp.id;
                     if (!expId) return null;
 
-                    for (let i = 0; i < 60; i++) {
-                        await new Promise(res => setTimeout(res, 2000));
+                    for (let i = 0; i < 6; i++) {
+                        await new Promise(res => setTimeout(res, 1500));
                         const pollUrl = `${gatewayBase}${tracksPath}/${trackId}/exports/${expId}?time=${Date.now()}`;
                         const pr = await fetch(pollUrl, {
                             method: 'GET',
